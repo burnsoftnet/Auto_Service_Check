@@ -1,6 +1,6 @@
 @ECHO OFF
 SET APPPATH=C:\scripts
-SET APPLOG=C:\scripts\logs
+SET APPLOG=%APPPATH%\logs
 SET VBScript=Auto_Service_Check
 SET MAXSIZE=700000
 SET LOGFILE=%APPLOG%\%VBScript%.log
